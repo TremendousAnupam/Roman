@@ -3,8 +3,6 @@ $(document).ready(function () {
 
 	//smoothscroll
 	$('.menuitem').on('click', function (e) {
-		//   e.preventDefault();
-		//  $(document).off("scroll");
 		var athis = this;
 		var target = this.hash,
 			menu = target;
